@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 20px 50px;
+    background-image: url(images/bg.png);
+    background-size: 100%;
+    font-family: 'RocknRoll One', sans-serif;
+    color: white;
+    font-weight: 700px;
+}
+
+.all {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: head;
+}
+
+.mem {
+    color: rgb(219, 100, 213);
+    margin-top: -3px;
+    text-shadow: 0 0 50px #df0000, 0 0 20px #2000af;
+    font-size: 20px;
+}
+
+.head .hh{
+    margin-bottom: -35px;
+    width: 400px;
+    margin-top: -40px;
+}
+
+.scoreBoard {
+    position: absolute;
+    left: 0px;
+    grid-area: score;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: auto;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 8px;
+    margin-right:10px ;
+    border-radius: 3px;
+}
+
+.scoreBoard .score {
+    color: rgb(253, 122, 0);
+    font-size: 16px;
+}
+
+.score .message {
+    color: rgb(154, 252, 255);
+    font-size: 10px;
+}
+
+.scoreBoard .click {
+    color: rgb(227, 125, 181);
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+    font-weight: 1000;
+}
+
+.gameBoard {
+    grid-area: board;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    width: fit-content;
+    padding: 15px 5px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grid .img {
+    cursor: pointer;
+    border:2px solid rgb(0, 0, 0, 0.001);
+}
+.grid .img-elevate{
+transition: transform 0.1s ease-out 0s; /* Animation Delayed */
+cursor: pointer;
+}
+.grid .img:hover{
+    transform: translateY(-10px);
+    box-shadow:inset 0 0 10px 0 rgb(7, 226, 255);
+    border-radius:4px ;
+    border:2px solid rgb(3, 226, 255);
+}
+.grid .img:active{
+    transform: translateY(5px);
+}
