@@ -6,7 +6,7 @@ $\color{red}{\textsf{This project is a clone from my previous GitHub repository.
 ## Demo
 You can see a live demo of the project [here](https://pharadol.github.io/card-matching-game-js/).
 
-![Project Screenshot](https://img2.pic.in.th/pic/income-expense-tracker.png)
+![Project Screenshot](https://img5.pic.in.th/file/secure-sv1/CardMatchingGame.png)
 
 ## Game 
 To start the game, open index.html in your web browser. The game board will be displayed with a grid of cards. Click on any card to flip it and reveal the hidden image underneath.
