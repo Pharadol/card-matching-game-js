@@ -1,4 +1,4 @@
-# Card Matching Game
+# Card Matching Game JS
 The Memory Card Matching Game allows players to flip cards and find matching pairs. Each card has a hidden image, and players must remember the position of cards to match pairs. The game ends when all pairs are matched.
 
 $\color{red}{\textsf{This project is a clone from my previous GitHub repository.}} $<a href="https://github.com/PharadolBrown/CardMatchingGame" traget="_blank">  this repository</a>
